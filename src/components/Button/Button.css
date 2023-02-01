@@ -1,0 +1,21 @@
+.post-button {
+  width: 50%;
+  height: 57px;
+  text-align: center;
+  background: #FFEC30;
+  border-radius: 20px;
+  border: #FFEC30;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 570px) {
+  .post-button {
+      width: 100%;
+    height: 57px;
+    text-align: center;
+
+    font-size: 13px;
+  }
+
+}

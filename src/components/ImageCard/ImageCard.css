@@ -1,0 +1,39 @@
+.imagecard {
+  background-color: #DD1176;
+
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  background-image: url('../../assets/images/backgrounds-card.png');
+
+  background-repeat: repeat-x;
+
+  margin-bottom: 20px;
+}
+
+.title {
+
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  align-items: center;
+  display: inline-block;
+}
+
+.card-img-overlay {
+  position: static;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  border-radius: calc(.25rem - 1px);
+}
+.title a{
+  color: #FFFFFF;
+}

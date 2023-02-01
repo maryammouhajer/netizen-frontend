@@ -1,0 +1,64 @@
+.navbar {
+
+    background-color: #DD1176;
+    margin-bottom: 50px;
+    padding-bottom: .5rem;
+
+
+}
+
+
+
+a .nav-link {
+
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+
+.nav-item a:hover {
+    color: #FFFFFF !important;
+    background-color: #FFEC30;
+   
+    border-radius: 30px;
+}
+
+.logo {
+    max-width: 100%;
+    padding-left: 10px;
+    margin: 25px;
+
+}
+
+.netizen-navbar {
+    padding: 15px 10px;
+    position: absolute;
+    top: 15px;
+    right: 102px;
+}
+
+.container-fluid {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    max-width: 100%;
+    padding-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+@media (max-width: 1115px) {
+
+    /*إخفاء حقل البحث الموجود في القائمة العلوية*/
+    .nav-link .polygon {
+        display: none;
+    }
+}

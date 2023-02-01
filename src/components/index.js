@@ -1,0 +1,8 @@
+export { default as NavItem } from './NavItem/NavItem' 
+export { default as Card } from './Card/Card'
+export { default as Button } from './Button/Button'
+export { default as Container } from './Container/Container'
+export { default as TeamCard } from './TeamCard/TeamCard'
+export { default as ClientCard } from './ClientCard/ClientCard'
+export { default as ImageCard } from './ImageCard/ImageCard'
+export { default as Accordion } from './Accordion/Accordion'
