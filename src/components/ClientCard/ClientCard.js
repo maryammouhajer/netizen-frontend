@@ -1,5 +1,4 @@
 import React from 'react'
-import './ClientCard.css'
 import { FaStar } from "react-icons/fa";
 import { Image } from 'react-bootstrap';
 const ClientCard = (props) => {

@@ -7,14 +7,14 @@ function Services() {
     <>
       <Container>
         
-        <ImageCard className="" title='UI/UX Design'/>
+        <ImageCard  title='UI/UX Design'/>
         <ImageCard title='Web Development' />
         <ImageCard title='Mobile Development' />
         <ImageCard title='Digital Marketing' />
         <ImageCard title='QA-QC' />
         <ImageCard title='Solution Implementation' />
         <ImageCard title='Solution Architect' />
-        <Button text='Post Your Project'/>
+        <Button  text='Post Your Project' link="../../project"/>
       </Container>
      
     </>

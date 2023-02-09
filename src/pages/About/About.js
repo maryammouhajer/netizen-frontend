@@ -10,25 +10,25 @@ export default function About() {
 
 
       <Container>
-         <Card className='primary'
-            heading='Mission'
-            image={mission}
-            soustitle='Support the strategy of job creation by incentivizing youth to provide digital services fundamentally to create a contextual platform.'
+        <Card className='primary'
+          heading='Mission'
+          image={mission}
+          soustitle='Support the strategy of job creation by incentivizing youth to provide digital services fundamentally to create a contextual platform.'
 
-          />
+        />
 
-          <Card
-            heading='Vision'
-            image={vision}
-            soustitle=
-            'Revitalize the Lebanese economy by job creation and disseminating digital services.'
+        <Card
+          heading='Vision'
+          image={vision}
+          soustitle=
+          'Revitalize the Lebanese economy by job creation and disseminating digital services.'
 
-          />
-          <Card
+        />
+        <Card
 
-            image={values}
-            heading=' Values'
-            soustitle='
+          image={values}
+          heading=' Values'
+          soustitle='
         · Accountability
         · Affordability
         · Authenticity
@@ -39,11 +39,11 @@ export default function About() {
         · Empowerment
         · Professionalism
         · Sustainability'
-          />
+        />
 
-<Button text='Post Your Project' />
+        <Button text='Post Your Project' link="../../postproject" />
       </Container>
-      
+
     </>
   )
 }

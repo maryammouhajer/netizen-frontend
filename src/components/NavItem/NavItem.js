@@ -1,6 +1,3 @@
-
-
-import './NavItem.css'
 import React from 'react'
 
 const NavItem= (props)=> {

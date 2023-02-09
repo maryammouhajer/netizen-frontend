@@ -21,7 +21,7 @@ function Team() {
           description="I'm Hasan Ezzedine, Solution Implementation at Netizen's Digital Lab under AICA lab. I joined this project with the aim of developing my experiences in the field of programing and working remotely in all areas of programming, i found this project is interesting for me which urges the team members to work responsibly with the aim of its continuity
 "          />
 
-        <Button text='Post Your Project' />
+        <Button text='Post Your Project' link="../../project" />
       </Container>
 
     </>

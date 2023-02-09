@@ -24,11 +24,6 @@ const Card = (props) => {
       <h6 className='text-center'>{props.signature}</h6>
 
     </div>
-
-
-
-
-
   )
 }
 

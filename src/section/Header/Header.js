@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 import logo from '../../assets/images/logo.png'
 import polygon from '../../assets/images/polygon.png'
-import { NavItem } from '../../components'
+import { NavItem } from '../../components/index'
 function Header() {
   return (
     <div className="container-fluid">
@@ -54,7 +54,7 @@ function Header() {
             </NavItem>
 
             <NavItem>
-              <a className="nav-link" href='/myproject'>My Projects</a>
+              <a className="nav-link" href='/myprojects'>My Projects</a>
 
             </NavItem>
             <NavItem>
@@ -69,18 +69,13 @@ function Header() {
               <a className="nav-link" href='/account'>My Account</a>
 
             </NavItem>
-            
+           
           </ul>
 
         </div>
       </nav>
 
     </div>
-
-
-
-
-
   )
 }
 

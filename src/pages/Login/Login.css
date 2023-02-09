@@ -1,0 +1,65 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #FFEC30;
+    margin: auto;
+    width: 100%;
+
+}
+
+.login-wrapper h1 {
+    padding: 25px 0;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    text-align: center;
+    color: #575757;
+}
+
+.login-wrapper button {
+    width: 100%;
+}
+
+.login-button {
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    background: #FFEC30;
+    border-radius: 20px;
+    border: #FFEC30;
+    margin-top: 10px;
+    align-items: center;
+    color: #000;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .login-wrapper {
+        font-weight: 700;
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-wrapper {
+        font-weight: 700;
+        font-size: 20px;
+        height: 100%;
+        margin: auto;
+    }
+
+    .login-wrapper button {
+        width: 100%;
+        font-size: 20px;
+    }
+    .login-wrapper h1 {
+        padding-bottom: 0;
+        font-size: 20px;
+        
+    }
+}

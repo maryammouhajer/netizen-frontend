@@ -1,33 +1,33 @@
 .footer {
     
-    margin-top: 100px;
+    margin-top: 10px;
     padding-bottom: 0;
-    height: 16px;
+    height: 10px;
     display: inline-block;
 }
 
 .footer-primary-color {
     background-color: #DD1176;
-    width: 33%;
+    width: 33.3%;
    
 }
 
 .footer-secondary-color {
     background-color: #00AEEF;
-    width: 33%;
+    width: 33.3%;
    
    
 }
 
 .footer-thirty-color {
     background-color: #FFEC30;
-    width: 33%;
+    width: 33.4%;
    
 }
 .footer-section{
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 110%;
 
 }

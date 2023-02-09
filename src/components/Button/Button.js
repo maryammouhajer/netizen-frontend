@@ -1,17 +1,13 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import './Button.css'
-
-import './Button.css'
-const button = (props) => {
+const Button = (props) => {
   return (
-    <div className='text-center'>
-      <button  className='button text-align-center align-item-center post-button col-md-4 '>
+    <div className='text-center btn'>
+      <a href={props.link} type='button' className=' align-items-center  button post-button col-md-4'>
         {props.text}
-      </button>
+      </a>
     </div>
-
   )
 }
 
-export default button
+export default Button

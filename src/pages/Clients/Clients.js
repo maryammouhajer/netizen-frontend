@@ -1,5 +1,4 @@
 import React from 'react'
-import './Clients.css'
 import profile0 from '../../assets/images/profile0.png'
 import { ClientCard, Container, Button } from '../../components/index'
 function Clients() {
@@ -50,7 +49,7 @@ function Clients() {
           description="diam nonummy nibh euismod tincidunt ut laoreet dolore ma diam nonummy nibh euismod tincidunt ut laoreet dolore ma
           "
         />
-        <Button text='Post Your Project' />
+        <Button text='Post Your Project' link="../../postproject" />
       </Container>
 
     </>

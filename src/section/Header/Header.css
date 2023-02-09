@@ -57,7 +57,6 @@ a .nav-link {
 
 @media (max-width: 1115px) {
 
-    /*إخفاء حقل البحث الموجود في القائمة العلوية*/
     .nav-link .polygon {
         display: none;
     }

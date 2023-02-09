@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Header, Footer } from './section/index'
-import { Home, About, Services, Team, Support, Clients, Project,  Account, Myproject } from './pages/index'
+import { Home, About, Services, Team, Support, Clients,PostProject, ProjectDetail,Project,  Account , EditAccount, MyProjects , Login , Chat ,Contract} from './pages/index'
 
 function App() {
   return (
@@ -16,9 +16,15 @@ function App() {
 
           <Route path='/support' element={<Support />} />
           <Route path='/clients' element={<Clients />} />
-          <Route path='/Project' element={<Project />} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/postproject' element={<PostProject />} />
+          <Route path='/project-detail' element={<ProjectDetail />} />
           <Route path='/account' element={<Account />} />
-          <Route path='/myproject' element={<Myproject />} />
+          <Route path='/edit-account' element={<EditAccount />} />
+          <Route path='/myprojects' element={<MyProjects />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/chat' element={<Chat />} />
+          <Route path='/contract' element={<Contract />} />
         </Routes>
         <Footer />
       </Router>

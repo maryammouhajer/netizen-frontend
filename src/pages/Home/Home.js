@@ -1,5 +1,4 @@
 import React from 'react'
-import './Home.css';
 import { Card, Container, Button } from '../../components/index'
 import creative from '../../assets/images/creative.png'
 import innovative from '../../assets/images/innovative.png'
@@ -9,7 +8,8 @@ function Home() {
     <>
 
       <Container>
-        <Card image={creative} 
+        <Card 
+          image={creative}
           title='Creative'
           soustitle='"Design creates culture. Culture shapes qualitative. qualitative determine the future."'
           signature='Robert L. Peters'
@@ -29,7 +29,8 @@ function Home() {
 
 
 
-        <Button text='Post Your Project' />
+        <Button text='Post Your Project' link="../../postproject" />
+
       </Container>
     </>
   )
