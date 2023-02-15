@@ -5,6 +5,7 @@ import { BsTriangleFill } from "react-icons/bs";
 import './ImageCard.css'
 const ImageCard = (props) => {
     return (
+
         <Card className="imagecard text-white   text-center" >
 
             <Card.ImgOverlay className='align-items-center'>
@@ -16,7 +17,6 @@ const ImageCard = (props) => {
                 </Card.Text>
             </Card.ImgOverlay>
         </Card>
-
     )
 }
 

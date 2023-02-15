@@ -3,7 +3,7 @@ const Card = (props) => {
   return (
 
 
-    <div className="card-item col-md-4 col-sm-6">
+    <div className="card-item col-md-4 " >
       <h2 className='text-center' >
         {props.heading}
       </h2>

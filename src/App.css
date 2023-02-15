@@ -47,5 +47,8 @@ a {
 a:hover {
   color: #000;
 }
-
+li{
+  
+  text-decoration: none;
+}
 

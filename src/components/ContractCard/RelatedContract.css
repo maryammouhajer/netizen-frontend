@@ -1,0 +1,16 @@
+.contract-button {
+    margin: 10px 0px;
+    width: 100%;
+    border: #FFEC30;
+    background-color: #FFEC30;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #575757; 
+}
