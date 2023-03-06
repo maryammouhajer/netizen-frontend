@@ -54,7 +54,7 @@ function EditAccount() {
           </div>
           <div className="col">
             <label htmlFor="inputPhoneNumber">Phone Number</label>
-            <input type="number" id="inputPhoneNumber" className="form-control" placeholder="Confirm Your Phone Number" required />
+            <input type="number" id="inputPhoneNumber" className="form-control" placeholder="Enter Your Phone Number" required />
           </div>
 
         </div>

@@ -17,8 +17,8 @@ const RelatedContract = (props) => {
                 <Card.Body style={{ backgroundColor: "#FFFBD8", borderRadius: "0px 0px 20px 20px" }}>
                     <div className='' style={{ width: '100%' }}>
                         <button className='contract-button'  text='contract 1'>contract 1</button>
-                        <button className='contract-button'  text='contract 1'>contract 1</button>
-                        <button className='contract-button' text='contract 1'>contract 1</button>
+                        <button className='contract-button'  text='contract 2'>contract 2</button>
+                        <button className='contract-button' text='contract 3'>contract 3</button>
 
                     </div>
                 </Card.Body>
